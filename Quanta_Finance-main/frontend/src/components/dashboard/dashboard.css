@@ -1,0 +1,154 @@
+/* Dashboard.css */
+ /* https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg */
+ /* https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 */
+
+
+ .dashform {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #E3EEEF;
+    background-image: url('https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg');
+    background-size: cover; /* Adjust the image size */
+    background-repeat: no-repeat;
+    margin-top: 37px;
+
+}
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .participants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .WYA {
+    display: flex;
+    flex-direction: row;
+   font-size: medium;
+   
+  }
+  
+  .add-person {
+    margin-left: 10px;
+  }
+  
+  .add-person-fields {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .ai-image {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    
+    overflow: hidden;
+    
+    /* Add your AI-generated image as a background */
+  }
+  .ai-image img {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Fill the container, maintaining aspect ratio */
+  }
+  
+  .description{
+
+    font-weight: bold;
+    font-size: larger;
+  }
+  .amount{
+    font-weight: bold;
+    font-size: larger;
+  }
+  .date {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  .image-notes {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .paid-by {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .cancel {
+    background-color: #dc3545;
+    font-size: large;
+  }
+  
+  .save {
+    background-color: #007bff;
+    margin-left: 3px;
+    font-size: large;
+  }
+  
+  .exp {
+          /* background-color: rgba(127, 255, 212, 0.377); */
+          /* background-color: #ff662fd0; */
+         font-weight: 470;
+         font-size: large;
+
+  }
+
+  .exp:hover {
+     background-color: rgba(127, 255, 212, 0.377); 
+     /* background-color: #ff662f;  */
+  
+}
+  .VAE{
+    color: black;
+    background-color:  aquamarine;
+    font-size: large;
+    font-weight: 300;
+  }
+
+  .ABC{
+
+  margin-top: 7px;
+  }
+  /* Additional styling can be added for better appearance */
+  

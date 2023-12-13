@@ -1,0 +1,113 @@
+/* viewexpenses.css */
+
+/* Styles for the container holding all expenses */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the heading */
+  h2 {
+    font-size: 27px;
+   
+    font-weight: bolder;
+    margin-top: 37px;
+  }
+  
+  /* Style for the unordered list of expenses */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each expense item */
+  li {
+    margin-bottom: 10px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .AIIMAGE {
+    width: 77px;
+    height: 77px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 17px;
+    margin-top: 10px;
+    
+    overflow: hidden;
+    
+    /* Add your AI-generated image as a background */
+  }
+  .AIIMAGE img {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Fill the container, maintaining aspect ratio */
+    
+  }
+
+  .Photu{
+display: flex;
+flex-direction: row;
+font-size: 25px;
+font-weight: bold;
+
+
+
+  }
+
+  .Textu{
+
+    margin-top: 17px;
+  }
+
+  .lilu {
+
+    background-image: url('https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg');
+    background-size: cover; /* Adjust the image size */
+    background-repeat: no-repeat;
+    margin-left: 570px;
+    width: 700px;
+    
+  }
+
+  .delete{
+
+    background-color: transparent;
+    width: 50px ;
+    height:50px ;
+    margin-left: 224px;
+    
+  }
+
+  .delete img {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover;
+
+
+  }
+
+  .delete:hover{
+
+    background-color: rgba(255, 0, 0, 0.829);
+    padding: 12px;
+    border-radius: 7px;
+  }
+
+  .dlb{
+  margin-left: 290px;
+  margin-bottom: 27px;
+
+
+  }
+
+  
+  /* Additional styles as needed for expense details */
+  /* Customize based on how you want to display each expense */
+  
